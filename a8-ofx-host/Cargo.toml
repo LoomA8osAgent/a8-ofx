@@ -1,0 +1,12 @@
+[package]
+name = "a8-ofx-host"
+description = "An OpenFX plugin host library, clean-room from the OFX specification and the ASWF BSD-3 headers."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[lib]
+name = "a8_ofx_host"
+
+[dependencies]

@@ -1,0 +1,14 @@
+[package]
+name = "a8-ofx-helper"
+description = "The out-of-process runner that loads OFX plugins in a separate process from the host application."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "a8-ofx-helper"
+path = "src/main.rs"
+
+[dependencies]
+a8-ofx-host = { path = "../a8-ofx-host" }
